@@ -1,0 +1,49 @@
+body {
+	font-size: 38px;
+	height: 100vh;
+}
+#example {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input[name=result] {
+	display: none;
+	width: 40px;
+	height: 35px;
+	font-size: 38px;
+}
+.axis {
+	padding-top: 100px;
+	display: flex;
+	position: relative;
+	margin-top: 20px;
+}
+.image {
+	top: 100px;
+	display: flex;
+	justify-content: center;
+}
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 34px;
+}
+.first-input {
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin-left: 170px;
+	margin-top: 50px;
+	font-size: 16px;
+	
+}
+.second-input {
+	display: none;
+	width: 15px;
+	height: 20px;
+	margin-left: 220px;
+	font-size: 16px;	
+
+}
